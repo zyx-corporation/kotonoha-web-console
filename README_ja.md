@@ -24,7 +24,8 @@
 ```bash
 npm install
 npm run dev -w server   # :8787
-npm run dev -w web      # :5173
+npm run dev -w web      # :5173（API は :8790）
+npm test              # i18n + 2 project 分離（要 DATABASE_URL）
 ```
 
 ## ロードマップ
