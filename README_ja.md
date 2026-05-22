@@ -13,9 +13,11 @@
 
 - Node.js 20+
 - M6 マイグレーション済み Postgres（[`kotonoha-core`](https://github.com/zyx-corporation/kotonoha-core)）
-- 環境変数:
+- [`kotonoha` CLI](https://github.com/zyx-corporation/kotonoha-cli) ≥ 0.2.9（`KOTONOHA_CLI_PATH` で上書き可）
+- 環境変数（サーバ）:
   - `DATABASE_URL`
-  - `KOTONOHA_PRINCIPAL_ID`（任意。M7-b で RBAC 連携予定）
+  - `KOTONOHA_PRINCIPAL_ID`（delta 一覧・M6 export に**必須**、`viewer` 以上）
+  - `KOTONOHA_CLI_PATH`（任意）
 
 ## 起動
 
@@ -30,7 +32,7 @@ npm run dev -w web      # :5173
 | マイルストーン | Issue |
 | --- | --- |
 | M7-a | [#142](https://github.com/zyx-corporation/kotonoha-management/issues/142) |
-| M7-b | [#143](https://github.com/zyx-corporation/kotonoha-management/issues/143) |
+| M7-b | [#143](https://github.com/zyx-corporation/kotonoha-management/issues/143)（delta + export） |
 | M7-d | [#145](https://github.com/zyx-corporation/kotonoha-management/issues/145) |
 
 仕様草案: [`37_m7_team_mode_ui_spec_draft.md`](https://github.com/zyx-corporation/kotonoha-management/blob/main/docs/37_m7_team_mode_ui_spec_draft.md)。

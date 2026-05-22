@@ -66,3 +66,80 @@ h2 {
   flex-direction: column;
   gap: 0.25rem;
 }
+
+.panel {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e5eb;
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.panel-head button,
+.filter-row button {
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #c5cad3;
+  background: #fff;
+  cursor: pointer;
+}
+
+.panel select,
+.panel input[type="text"] {
+  display: block;
+  margin-top: 0.35rem;
+  width: 100%;
+  max-width: 28rem;
+  padding: 0.4rem 0.5rem;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: flex-end;
+  margin-bottom: 0.75rem;
+}
+
+.warn-banner {
+  background: #fff8e6;
+  border: 1px solid #e6c200;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+}
+
+.ok-text {
+  color: #0d6b3a;
+}
+
+.delta-list {
+  list-style: none;
+  padding: 0;
+}
+
+.delta-list li {
+  background: #fff;
+  border: 1px solid #e2e5eb;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.export-preview {
+  margin-top: 0.75rem;
+  max-height: 16rem;
+  overflow: auto;
+  background: #1e1e1e;
+  color: #e8e8e8;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+}
