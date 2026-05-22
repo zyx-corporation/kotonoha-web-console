@@ -1,7 +1,7 @@
 const VIEWER_ROLES = ["viewer", "reviewer", "agent_runner", "owner"] as const;
 
 export const config = {
-  port: Number(process.env.PORT ?? 8787),
+  port: Number(process.env.PORT ?? 8790),
   databaseUrl: process.env.DATABASE_URL ?? "",
   principalId: process.env.KOTONOHA_PRINCIPAL_ID?.trim() || null,
   cliPath: process.env.KOTONOHA_CLI_PATH?.trim() || "kotonoha",

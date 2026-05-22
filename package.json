@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "npm run dev -w server & npm run dev -w web",
     "build": "npm run build -w web",
-    "start": "npm run start -w server"
+    "start": "npm run start -w server",
+    "test": "node --test web/test/i18n-parity.mjs && node --test server/test/m7-project-isolation.mjs"
   }
 }

@@ -29,7 +29,11 @@ npm run dev -w server
 npm run dev -w web
 ```
 
-Open http://localhost:5173 (API proxied to port 8787).
+Open http://localhost:5173 (API proxied to port **8790** — avoids gateway on 8787).
+
+```bash
+npm test   # i18n parity + two-project API isolation (needs DATABASE_URL)
+```
 
 ## Roadmap
 
