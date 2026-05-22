@@ -1,0 +1,13 @@
+{
+  "name": "kotonoha-web-console",
+  "private": true,
+  "version": "0.1.0",
+  "description": "M7 Team Mode Web Console (minimal read-only)",
+  "license": "Apache-2.0",
+  "workspaces": ["server", "web"],
+  "scripts": {
+    "dev": "npm run dev -w server & npm run dev -w web",
+    "build": "npm run build -w web",
+    "start": "npm run start -w server"
+  }
+}
