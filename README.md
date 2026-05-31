@@ -4,6 +4,8 @@
 
 > **Not** [kotonoha-console](https://github.com/zyx-corporation/kotonoha-console) (Obsidian plugin).
 
+**Priority boundary (expansion layer / non-primary UI):** [`docs/priority-boundary.md`](docs/priority-boundary.md) — canonical: [`kotonoha-spec` `web-console-priority-boundary.md`](https://github.com/zyx-corporation/kotonoha-spec/blob/main/docs/web-console-priority-boundary.md).
+
 ## Stack
 
 - **web/** — Vite + React (i18n `en` / `ja`)
